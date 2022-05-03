@@ -1,5 +1,4 @@
 #include<stdio.h>
-#include<stdio.h>
 #include<math.h>
 int isprime(int x)
 {
@@ -35,7 +34,7 @@ int primecount(int *a,int n)
 }
 int main()
 {
-    int n,i,c=0,d=0,e=0,a[100],k=0;
+    int i,n,c=0,k=0,d=0,a[100];
     scanf("%d",&n);
     for(i=1;i<=n;i++)
     {
