@@ -1,4 +1,5 @@
 #include<stdio.h>
+#include<math.h>
 int isprime(int n)
 {
     int i,c=0;
@@ -14,7 +15,6 @@ int isprime(int n)
         return n;
     }
     return 0;
-    
 }
 int main()
 {
@@ -22,9 +22,9 @@ int main()
     scanf("%d",&n);
     for(i=1;i<=n;i++)
     {
-        for(j=1;j<=n;j++)
+        for(j=1;j<n;j++)
         {
-            if(isprime(i)*(isprime(j))==n)
+            if((isprime(i)*isprime(j))==n)
             {
                 c=1;
                 printf("%d ",i);
@@ -36,5 +36,4 @@ int main()
     {
         printf("-1");
     }
-    
 }
