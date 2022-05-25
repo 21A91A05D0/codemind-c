@@ -1,0 +1,31 @@
+#include<stdio.h>
+#include<math.h>
+int main()
+{
+    int n,i,arr[100],s=0,d=0,j;
+    scanf("%d",&n);
+    for(i=0;i<n;i++)
+    {
+        scanf("%d",&arr[i]);
+    }
+    for(i=0;i<n;i++)
+    {
+        if(i%2==0)
+        {
+            s+=arr[i];
+        }
+        if(i%2!=0)
+        {
+            d+=arr[i];
+        }
+    }
+    j=abs(d-s);
+    if(j%4==0)
+    {
+        printf("X");
+    }
+    else
+    {
+        printf("Y");
+    }
+}
