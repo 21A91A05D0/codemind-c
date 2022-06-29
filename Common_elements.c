@@ -7,8 +7,6 @@ int main()
     for(i=0;i<n;i++)
     {
         scanf("%d",&arr1[i]);
-       // printf("%d 
-",arr1[i]);
     }
     for(j=0;j<m;j++)
     {
