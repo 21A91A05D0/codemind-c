@@ -1,8 +1,8 @@
 #include<stdio.h>
 int main()
 {
-    int a[100][100];
-    int n,i,j,r,c,s=0,k=0;
+    int a[100][100],arr[100];
+    int n,i,j,r,c,s=0,k=0,s1=0;
     scanf("%d%d",&r,&c);
     for(i=0;i<r;i++)
     {
