@@ -20,7 +20,6 @@ int main()
         arr[l++]=(s-k);
         k=s;
     }
-    k=s=0;
     for(i=0;i<c;i++)
     {
         for(j=0;j<r;j++)
